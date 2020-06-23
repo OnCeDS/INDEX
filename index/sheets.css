@@ -1,0 +1,45 @@
+body {
+  font-family: Trebuchet MS, sans-serif;
+}
+
+.board-navigation {
+  font-size: 15pt;
+  max-width: 100%;
+  margin-bottom: 10px;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #800000;
+  border: 5px solid #2d508f;
+}
+
+.board-navigation-text {
+  font-size: 15pt;
+  margin-bottom: 10px;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #800000;
+  border: 5px solid #2d508f;
+}
+
+.board {
+  display: -webkit-flex; /* Safari */     
+  display: flex; /* Standard syntax */
+  font-size: 10pt;
+  margin-bottom: 50px;
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 5px solid #2d508f;
+}
+
+.board-img {
+  width: 100%; 
+  height: auto;
+  border: 2px solid #00a8e1;
+}
+
+.column {
+  -webkit-flex: 1; /* Safari */
+  -ms-flex: 1; /* IE 10 */
+  flex: 1; /* Standard syntax */
+  padding: 10px;
+}
